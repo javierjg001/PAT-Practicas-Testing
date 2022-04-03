@@ -1,5 +1,7 @@
 # Práctica 6: Testing de una aplicación de Spring Boot
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/javierjg001/PAT-Practicas-Testing)
+
 ## Objetivo de la práctica
 
 Dado un desarrollo de Spring Boot, es necesario anhadir tests a las siguientes clases:

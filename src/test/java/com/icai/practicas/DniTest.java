@@ -5,15 +5,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import com.icai.practicas.model.DNI;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class MainApplicationTests {
-
-	@Test
-	void contextLoads() {
-
-		DNI dniTestTrue = new DNI("12345678Z");
+public class DniTest {
+    
+    @Test
+    public void testDni() {
+        DNI dniTestTrue = new DNI("12345678Z");
 		DNI dniTestFalse = new DNI("00000001R");
 
 		boolean resultadoDniTrue = dniTestTrue.validar();
@@ -22,7 +19,5 @@ class MainApplicationTests {
 		assertEquals(true, resultadoDniTrue);
 		assertEquals(false, resultadoDniFalse);
 
-
-	}
-
+    }
 }
