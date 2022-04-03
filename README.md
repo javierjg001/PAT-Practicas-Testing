@@ -1,4 +1,4 @@
-# Practica 6: Testing de una aplicacion de Spring Boot
+# Práctica 6: Testing de una aplicación de Spring Boot
 
 ## Objetivo de la práctica
 
